@@ -1,0 +1,18 @@
+(** @canonical Recs.Ast *)
+module Ast = Recs__Ast
+
+
+(** @canonical Recs.Ds *)
+module Ds = Recs__Ds
+
+
+(** @canonical Recs.Interp *)
+module Interp = Recs__Interp
+
+
+(** @canonical Recs.Lexer *)
+module Lexer = Recs__Lexer
+
+
+(** @canonical Recs.Parser *)
+module Parser = Recs__Parser

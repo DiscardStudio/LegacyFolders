@@ -1,0 +1,6 @@
+# dune ut
+# OCAMLPARAM: unset
+# Workspace root: /Users/Mike/Documents/Sophomore_Year/CS496
+$ /usr/local/bin/nproc > /var/folders/gl/1rlzx53x00n4qknscx5xsxh80000gp/T/dune70b160.output 2> /dev/null
+# Auto-detected concurrency: 4
+# disable binary cache

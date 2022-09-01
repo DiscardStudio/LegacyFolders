@@ -1,0 +1,18 @@
+
+
+
+
+
+letrec take(n) = 
+           proc (l) {
+             if nil?(l)
+	     then nil
+	     else (
+	       if zero?(n)
+	       then nil
+	       else cons(hd(l),((take (n-1)) tl(l)))
+	     )
+          }
+in let l = cons(1,cons(2,cons(3,nil)))
+in ((take  2) l)
+

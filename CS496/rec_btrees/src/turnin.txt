@@ -1,0 +1,20 @@
+Michael Sanchez and Simrun Heir
+I pledge my honor that I have abided by the Stevens Honor Code.
+
+interp "
+letrec sizet(n) = 
+        if empty?(n)
+        then 0
+        else 1 + caset n of {
+        		node(a,l,r) -> if empty?(l)
+                			   then (sizet r)
+                               else if empty?(r)
+                               		then (sizet l)
+                                    else (sizet l) + (sizet r)
+in (sizet emptytree)
+in letrec mapt(t) = proc(g) {
+	if empty?(t)
+    then emptytree
+    else caset t of {
+    			node(a,l,r) ->
+}";;
